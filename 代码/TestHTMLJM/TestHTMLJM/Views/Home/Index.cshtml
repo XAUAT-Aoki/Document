@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                南山1楼34号座位
+            </div>
+            <div class="panel-body">
+                <div class="progress">
+                    <div class="progress-bar" style="width:6.7%">
+                        <span class="sr-only" onclick="color()"></span>
+                    </div>
+                    <div class="progress-bar" style="width: 6.7%">
+                        <span class="sr-only"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/assets/js/jquery-1.10.2.js"></script>
+<!-- BOOTSTRAP SCRIPTS  -->
+<script src="~/assets/js/bootstrap.js"></script>
+<!-- CUSTOM SCRIPTS  -->
+<script src="~/assets/js/custom.js"></script>
+
+<style>
+    .row {
+        width: 900px;
+    }
+    .col-md-6 {
+        width: 900px;
+    }
+    .progress {
+        height: 50px;
+        width: 800px;
+    }
+    .progress-bar {
+        height: 50px;
+        margin-right: 2px;
+    }
+</style>
+<script type="text/javascript" language="javascript">
+    function color() {
+        //document.getElementById("field2").value=document.getElementById("field1").value;
+    }
+</script>
